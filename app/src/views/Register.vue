@@ -69,7 +69,7 @@ export default {
               this.$router.push({ name: 'home' });
             })
             .catch(err => console.log(err));
-          }
+          },
         )
         .catch(err => console.log(err.message));
     },

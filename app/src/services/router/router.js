@@ -40,14 +40,9 @@ export default new Router({
       beforeEnter: requireAuth,
       children: [
         {
-          path: '/counter',
-          name: 'counter',
-          component: () => import('@/views/Counter'),
-        },
-        {
-          path: '/diary',
-          name: 'diary',
-          component: () => import('@/views/Diary'),
+          path: '/content',
+          name: 'content',
+          component: () => import('@/views/Content'),
         },
       ],
     },
