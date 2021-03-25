@@ -2,6 +2,8 @@
 
 Starter template for authentication with AWS Cognito and Vue.  This template provides the ability to quickly fire up authentication using Cognito with a front end framework (Vue in this instance) and a Node backend.
 
+This template also only utilizes the AWS SDK instead of relying on Amplify or any other Cognito centric library, providing a little less bloat to your project.
+
 ## Installation
 
 First, make sure to create your Cognito User Pool if you haven't already.  If you do not know how, follow the link below for the process of doing so:
